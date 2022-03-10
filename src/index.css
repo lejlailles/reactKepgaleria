@@ -1,13 +1,80 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(82, 82, 139);
+  
+}
+
+.galeria{
+  display:flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+}
+
+.nagyKep{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bal{
+  margin:10px;
+}
+
+.jobb{
+  margin:10px;
+}
+
+.nagy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.nagyKep h1{
+  color: rgb(175, 197, 216);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nagyKep p{
+  color: rgb(175, 197, 216);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.kep img {
+  max-width: 400px;
+}
+
+.kep p {
+  color: rgb(175, 197, 216);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.kep h1 {
+  color: rgb(175, 197, 216);
+  font-family: "Times New Roman", Times, serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
